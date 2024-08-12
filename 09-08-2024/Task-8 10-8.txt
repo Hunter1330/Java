@@ -1,0 +1,40 @@
+package task;
+
+class Student02 {
+	int rollNo;
+	String name;
+	int marks;
+	int reg;
+
+	public Student02(int rollNo, String name) {
+		this.rollNo = rollNo;
+		this.name = name;
+		System.out.println("Input -- roll number : " + rollNo + " name : " + name);
+	}
+
+	public Student02(int rollNo, String name, int marks) {
+		this.rollNo = rollNo;
+		this.name = name;
+		this.marks = marks;
+		System.out.println("Input -- roll number : " + rollNo + " name : " + name + " marks : " + this.marks);
+	}
+
+	public Student02(int rollNo, String name, int marks, int reg) {
+		this.rollNo = rollNo;
+		this.name = name;
+		this.marks = marks;
+		this.reg = reg;
+		System.out.println("Input -- roll number : " + rollNo + " name : " + name + " marks : " + this.marks
+				+ " register number : " + this.reg);
+	}
+}
+
+public class Task_8 {
+
+	public static void main(String[] args) {
+		Student02 stu = new Student02(123, "l");
+		stu = new Student02(123, "lo", 2324);
+		stu = new Student02(123, "loo", 2324, 423);
+	}
+
+}

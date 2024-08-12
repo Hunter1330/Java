@@ -1,0 +1,22 @@
+package task;
+
+// helper class
+class mathematics02 {
+	public int addition(int a, int b) {
+		return a + b;
+	}
+
+	public double addition(double a, double b) {
+		return a + b;
+	}
+}
+
+// main class
+public class Task_9 {
+
+	public static void main(String[] args) {
+		mathematics02 mat = new mathematics02();
+		System.out.println(mat.addition(123.443, 232.32));
+	}
+
+}
