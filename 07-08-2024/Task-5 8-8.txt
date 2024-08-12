@@ -1,0 +1,18 @@
+package task;
+
+abstract class mathematics01{
+	abstract void add();
+}
+
+class mat extends mathematics01{
+	void add() {
+		System.out.println("addition");
+	}
+}
+
+public class Task_5 {
+
+	public static void main(String[] args) {
+	}
+
+}
