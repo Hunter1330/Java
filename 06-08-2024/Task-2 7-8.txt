@@ -1,0 +1,23 @@
+package task;
+
+class Employee {
+	int employeeNo;
+	String employeeName;
+	
+	void insert(int no, String name){
+		employeeNo = no;
+		employeeName = name;
+	}
+	
+	void displayAll(){
+		System.out.println(employeeNo + " " + employeeName);
+	}
+}
+
+public class Task_2 {
+	public static void main(String[] args) {
+		Employee emp = new Employee();
+		emp.insert(1001, "Rakesh");
+		emp.displayAll();
+	}
+}
