@@ -1,0 +1,23 @@
+package task;
+
+//instance class
+
+public class Task_10 {
+	int num;
+	String name;
+
+	public Task_10(int num, String name) {
+		this.num = num;
+		this.name = name;
+	}
+
+	public void display() {
+		System.out.println("number : " + this.num + " name : " + name);
+	}
+
+	public static void main(String[] args) {
+		Task_10 st = new Task_10(10, "name");
+		st.display();
+	}
+
+}

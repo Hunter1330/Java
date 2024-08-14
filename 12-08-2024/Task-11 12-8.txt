@@ -1,0 +1,12 @@
+package task;
+
+public class Task_11 {
+
+	public static int squ(int num) {
+		return num * num;
+	}
+
+	public static void main(String[] args) {
+		System.out.println(squ(5));
+	}
+}

@@ -1,0 +1,26 @@
+package task;
+
+// Unfinished code
+class Dummy001 {
+	static int num = 1;
+
+	public static int change() {
+		return num++;
+	}
+}
+
+public class Task_12 {
+
+	public static void main(String[] args) {
+		Dummy001 du = new Dummy001();
+		Dummy001 dont = new Dummy001();
+		for (int i = 0; i < 5; i++) {
+			System.out.println(du.change());
+		}
+
+		for (int i = 0; i < 5; i++) {
+			System.out.println(dont.change());
+		}
+	}
+
+}
